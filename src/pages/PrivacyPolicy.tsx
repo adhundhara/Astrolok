@@ -24,7 +24,29 @@ const PrivacyPolicy = () => {
 
           <p>User information will not be sold, rented, or traded to third parties. However, data may be shared with trusted service providers, legal authorities, or regulatory bodies when required by law, or when necessary to protect rights, safety, or compliance obligations.</p>
 
-          <p>Users may request modification or deletion of their personal data by contacting support; however, certain data may be retained for legal, operational, or compliance purposes. Continued use of the Platform constitutes consent to the data practices described in this Privacy Policy.</p>
+          <h2 className="text-xl font-bold text-primary mt-10 mb-4">Account & Data Deletion</h2>
+          <div className="border-l-4 border-primary bg-primary/5 p-5 md:p-6 rounded-r-lg space-y-4 text-foreground/90">
+            <p>
+              Users have the right to request deletion of their account and associated personal data at any time. You can delete your account using any of the following methods:
+            </p>
+            <ul className="list-disc pl-5 space-y-2">
+              <li>
+                <strong>Through the App:</strong> You can directly delete your account by navigating to the settings within the AstroLok app.
+              </li>
+              <li>
+                <strong>Via Web Form:</strong> Submit a secure deletion request through our form at: <br />
+                <a href="https://forms.gle/g1e3VhhwmSDtJQhN8" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium break-all">
+                  https://forms.gle/g1e3VhhwmSDtJQhN8
+                </a>
+              </li>
+              <li>
+                <strong>Via Email:</strong> Alternatively, you may email us at <a href="mailto:support@astrolok.site" className="text-primary hover:underline font-medium">support@astrolok.site</a> from your registered email address with the subject line: <strong>"Account Deletion Request"</strong>.
+              </li>
+            </ul>
+            <p className="pt-2">
+              We process deletion requests within <strong>7–14 business days</strong>, unless retention is required by law for compliance or operational purposes. Continued use of the Platform constitutes consent to the data practices described in this Privacy Policy.
+            </p>
+          </div>
 
           <p>AstroLok reserves the right to update, modify, or revise this Privacy Policy at any time without prior notice. Users are encouraged to review this policy periodically. Continued use after changes implies acceptance of the revised policy.</p>
         </div>
