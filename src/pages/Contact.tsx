@@ -35,9 +35,9 @@ const Contact = () => {
           <p className="text-foreground text-base md:text-lg leading-relaxed mt-5 whitespace-pre-line">
             However, if you are facing any bugs, want to report an issue in the app, or are experiencing any technical errors, please feel free to reach out to us at the email below. We will do our best to resolve your issue as quickly as possible.{"\n"}
             RANDOM HIT LLP{"\n"}
-            Floor No: First{"\n"}
-            Street: Ridhi Sidhi Enclave 1st City/Town/Village: Sri Ganganagar District: Sri Ganganagar State: Rajasthan PIN Code: 335001{"\n"}
-            Phone N0 - +91 87697 63320
+            Rd 4, Ridhi Sidhi Enclave 1st{"\n"}
+            Sri Ganganagar, Rajasthan 335001{"\n"}
+            Phone: +91 87697 63320
           </p>
 
           <div className="mt-8 pt-6 border-t border-border flex items-center gap-3">

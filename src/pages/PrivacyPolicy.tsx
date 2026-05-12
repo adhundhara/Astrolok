@@ -49,6 +49,12 @@ const PrivacyPolicy = () => {
           </div>
 
           <p>AstroLok reserves the right to update, modify, or revise this Privacy Policy at any time without prior notice. Users are encouraged to review this policy periodically. Continued use after changes implies acceptance of the revised policy.</p>
+
+          <p className="mt-6 text-sm text-foreground/70 whitespace-pre-line">
+            <strong>RANDOM HIT LLP</strong>{"\n"}
+            Rd 4, Ridhi Sidhi Enclave 1st{"\n"}
+            Sri Ganganagar, Rajasthan 335001
+          </p>
         </div>
       </div>
     </div>

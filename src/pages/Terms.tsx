@@ -30,7 +30,13 @@ const Terms = () => {
 
           <p>These Terms shall be governed by and interpreted in accordance with the laws of India. Any disputes arising shall fall under the jurisdiction determined by Random Hit LLP.</p>
 
-          <p>AstroLok reserves the full right to update or modify these Terms & Conditions at any time. Continued use of the Platform signifies acceptance of the updated terms.</p>
+          <p>AstroLok reserves the full right to update or modify these Terms &amp; Conditions at any time. Continued use of the Platform signifies acceptance of the updated terms.</p>
+
+          <p className="mt-6 text-sm text-foreground/70 whitespace-pre-line">
+            <strong>RANDOM HIT LLP</strong>{"\n"}
+            Rd 4, Ridhi Sidhi Enclave 1st{"\n"}
+            Sri Ganganagar, Rajasthan 335001
+          </p>
         </div>
       </div>
     </div>
