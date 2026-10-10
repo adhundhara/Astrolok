@@ -9,7 +9,26 @@ const Contact = () => {
           <ArrowLeft size={16} /> Back to Home
         </Link>
         <h1 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-3">Contact Us</h1>
-        <p className="text-muted-foreground text-sm mb-8">Have a question? We'd love to hear from you.</p>
+        <p className="text-muted-foreground text-sm mb-6">Have a question? We'd love to hear from you.</p>
+
+        {/* Contact Info Cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+          <a href="tel:+918697633940" className="flex flex-col items-center gap-2 p-4 rounded-xl bg-primary/5 border border-primary/10 hover:border-primary/30 transition-colors text-center">
+            <span className="text-2xl">📞</span>
+            <span className="text-xs text-muted-foreground font-medium uppercase tracking-wide">Phone</span>
+            <span className="text-sm font-semibold text-foreground">+91 86976 33940</span>
+          </a>
+          <a href="mailto:support@astrolok.site" className="flex flex-col items-center gap-2 p-4 rounded-xl bg-primary/5 border border-primary/10 hover:border-primary/30 transition-colors text-center">
+            <span className="text-2xl">✉️</span>
+            <span className="text-xs text-muted-foreground font-medium uppercase tracking-wide">Email</span>
+            <span className="text-sm font-semibold text-foreground">support@astrolok.site</span>
+          </a>
+          <div className="flex flex-col items-center gap-2 p-4 rounded-xl bg-primary/5 border border-primary/10 text-center">
+            <span className="text-2xl">📍</span>
+            <span className="text-xs text-muted-foreground font-medium uppercase tracking-wide">Address</span>
+            <span className="text-sm font-semibold text-foreground leading-snug">Rd 4, Ridhi Sidhi Enclave 1st,<br />Sri Ganganagar, Rajasthan 335001</span>
+          </div>
+        </div>
 
         <div className="gradient-card rounded-2xl p-6 md:p-8 shadow-elevated">
           <p className="text-foreground text-base md:text-lg leading-relaxed">
@@ -37,7 +56,7 @@ const Contact = () => {
             RANDOM HIT LLP{"\n"}
             Rd 4, Ridhi Sidhi Enclave 1st{"\n"}
             Sri Ganganagar, Rajasthan 335001{"\n"}
-            Phone: +91 87697 63320
+            Phone: +91 86976 33940
           </p>
 
           <div className="mt-8 pt-6 border-t border-border flex items-center gap-3">

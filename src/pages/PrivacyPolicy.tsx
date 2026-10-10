@@ -9,7 +9,20 @@ const PrivacyPolicy = () => {
           <ArrowLeft size={16} /> Back to Home
         </Link>
         <h1 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">Privacy Policy</h1>
-        <p className="text-xs text-muted-foreground mb-8">AstroLok (astrolok.site) — Operated by Random Hit LLP</p>
+        <p className="text-xs text-muted-foreground mb-4">AstroLok (astrolok.site) — Operated by Random Hit LLP</p>
+
+        {/* Contact Info Banner */}
+        <div className="flex flex-wrap gap-4 mb-8 p-4 rounded-xl bg-primary/5 border border-primary/10 text-sm text-foreground/70">
+          <a href="tel:+918697633940" className="flex items-center gap-2 hover:text-primary transition-colors">
+            📞 <span>+91 86976 33940</span>
+          </a>
+          <a href="mailto:support@astrolok.site" className="flex items-center gap-2 hover:text-primary transition-colors">
+            ✉️ <span>support@astrolok.site</span>
+          </a>
+          <span className="flex items-center gap-2">
+            📍 <span>Rd 4, Ridhi Sidhi Enclave 1st, Sri Ganganagar, Rajasthan 335001</span>
+          </span>
+        </div>
 
         <div className="prose prose-sm max-w-none text-foreground/80 space-y-4 text-sm leading-relaxed">
           <p>This Privacy Policy governs the manner in which AstroLok, operated by Random Hit LLP, collects, uses, maintains, and discloses information collected from users ("Users") of the website and mobile application astrolok.site ("Platform"). By accessing or using the Platform, Users agree to the terms outlined herein.</p>

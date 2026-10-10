@@ -9,7 +9,20 @@ const Terms = () => {
           <ArrowLeft size={16} /> Back to Home
         </Link>
         <h1 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">Terms & Conditions</h1>
-        <p className="text-xs text-muted-foreground mb-8">AstroLok — Operated by Random Hit LLP</p>
+        <p className="text-xs text-muted-foreground mb-4">AstroLok — Operated by Random Hit LLP</p>
+
+        {/* Contact Info Banner */}
+        <div className="flex flex-wrap gap-4 mb-8 p-4 rounded-xl bg-primary/5 border border-primary/10 text-sm text-foreground/70">
+          <a href="tel:+918697633940" className="flex items-center gap-2 hover:text-primary transition-colors">
+            📞 <span>+91 86976 33940</span>
+          </a>
+          <a href="mailto:support@astrolok.site" className="flex items-center gap-2 hover:text-primary transition-colors">
+            ✉️ <span>support@astrolok.site</span>
+          </a>
+          <span className="flex items-center gap-2">
+            📍 <span>Rd 4, Ridhi Sidhi Enclave 1st, Sri Ganganagar, Rajasthan 335001</span>
+          </span>
+        </div>
 
         <div className="prose prose-sm max-w-none text-foreground/80 space-y-4 text-sm leading-relaxed">
           <p>By accessing or using AstroLok, operated by Random Hit LLP, you agree to comply with and be bound by these Terms & Conditions. If you do not agree, you must discontinue use of the Platform immediately.</p>

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-foreground text-background py-12">
       <div className="container">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-3">
@@ -34,6 +34,16 @@ const Footer = () => {
               <Link to="/privacy-policy" className="text-background/60 hover:text-background text-sm transition-colors">Privacy Policy</Link>
               <Link to="/terms" className="text-background/60 hover:text-background text-sm transition-colors">Terms & Conditions</Link>
               <Link to="/contact" className="text-background/60 hover:text-background text-sm transition-colors">Contact Us</Link>
+            </div>
+          </div>
+
+          {/* Contact */}
+          <div>
+            <h4 className="font-semibold text-sm mb-3">Contact Us</h4>
+            <div className="flex flex-col gap-2 text-background/60 text-sm">
+              <a href="tel:+918697633940" className="hover:text-background transition-colors">📞 +91 86976 33940</a>
+              <a href="mailto:support@astrolok.site" className="hover:text-background transition-colors">✉️ support@astrolok.site</a>
+              <p className="leading-relaxed">📍 RANDOM HIT LLP<br />Rd 4, Ridhi Sidhi Enclave 1st<br />Sri Ganganagar, Rajasthan 335001</p>
             </div>
           </div>
         </div>
